@@ -1,15 +1,14 @@
 package teaching.list;
 
+import static teaching.list.utils.ArrayUtils.printArray;
+
+
 class List10_2 {
 
     public static void main(String[] args) {
         String[] a = new String[] {"1", "3", "5", "7"};
         String[] b = new String[] {"2", "4"};
         printArray(combines(a, b));
-    }
-
-    private static void printArray(String[] z) {
-        for (String a : z) System.out.print(a + " ");
     }
 
     private static String[] combines(String[] a, String[] b) {
