@@ -6,4 +6,7 @@ public class ArrayUtils {
         for (String a : z) System.out.print(a + " ");
     }
 
+    public static void printArray(int[] z) {
+        for (int a : z) System.out.print(a + " ");
+    }
 }

@@ -6,8 +6,8 @@ import static teaching.list.utils.ArrayUtils.printArray;
 class List10_2 {
 
     public static void main(String[] args) {
-        String[] a = new String[] {"1", "3", "5", "7"};
-        String[] b = new String[] {"2", "4"};
+        String[] a = new String[] {"1", "1", "1", "3"};
+        String[] b = new String[] {"8", "8"};
         printArray(combines(a, b));
     }
 
