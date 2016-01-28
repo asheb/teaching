@@ -1,3 +1,4 @@
+package teaching.list;
 
 class List10_2 {
 
